@@ -22,6 +22,29 @@ The dataset used for training and evaluation contains information about crops, i
 To run the code and reproduce the results:
 
 1. Clone the repository:
-   ```bash
+
+```
 git clone https://github.com/yourusername/crop-recommendation.git
 cd crop-recommendation
+```
+
+2. Install the required dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+3. Download the dataset (if not included) and place it in the `data/` directory.
+
+4. Run the Jupyter notebook or Python script to train the model and make predictions:
+
+```
+jupyter notebook crop_recommendation.ipynb
+```
+
+## Model Evaluation
+The model's performance is evaluated using accuracy, precision, recall, or F1-score metrics, depending on the classification task. Cross-validation or holdout datasets may be used for evaluation to assess the model's generalization ability.
+
+## Results
+The trained model achieves an accuracy of 99% on the test dataset, indicating its effectiveness in recommending suitable crops based on input conditions.
+
